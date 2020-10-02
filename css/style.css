@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Work Sans', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+
+/* ----- Main CSS codes start ----- */
+.header-bg{
+    background: url("../img/BannerBG.png") center top no-repeat;
+    background-size: 115%;
+}
+.bg-light{
+    background: transparent !important;
+}
+.navigation-1 .navbar-nav .nav-item{
+    margin: 0px 15px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    line-height: 5px;
+    font-weight: 600;
+    color: #5a6e79;
+}
+.navbar-nav .active a{
+    color: #ffc178 !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid #ffc178;
+}
+.navigation-1 .btn{
+    background: #fff;
+    color: #ffc178;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.navigation-1 .btn:hover{
+    background: #ffc178;
+    color: #5a6e79;
+}
+.text-wrapper{
+    margin-top: 120px;
+    padding-bottom: 400px;
+}
+.text-wrapper h1{
+    font-size: 39px;
+    font-weight: bold;
+    color: #ffc178;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+.text-wrapper p{
+    font-size: 17px;
+    color: #5a6e79;
+    margin-bottom: 30px;
+}
+.text-wrapper .btn{
+    color: #fff;
+    background: #ffc178;
+    padding: 15px 45px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* ----- Feature section start ----- */
+.feature-header-wrapper{}
+.feature-header-wrapper h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.feature-header-wrapper p{
+    color: #5a6e79;
+    margin-bottom: 65px;
+}
+.feature-inner{
+    padding-bottom: 70px;
+    border-radius: 4px;
+}
+.feature-inner h4{
+    color: #fff;
+}
+.bg-1{
+    background: #f9703a;
+}
+.bg-2{
+    background: #80be41;
+}
+.bg-3{
+    background: #ffb157;
+}
+
+/* ----- about section codes start ----- */
+.about-inner{
+    position: relative;
+}
+.video img{
+    position: absolute;
+    top: 18%;
+}
+.about-inner h3{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.about-inner p{
+    color: #5a6e79;
+}
+.color-text-container{
+    margin-top: 55px;
+}
+.color-text-container h5{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.color-text-container p{
+    font-size: 17px;
+}
+.clr-01 h5{
+    color: #ffba00;
+}
+.clr-02 h5{
+    color: #ff5f72;
+}
+.clr-03 h5{
+    color: #43cb83;
+}
+.clr-01 p{
+    color: #ffba00;
+}
+.clr-02 p{
+    color: #ff5f72;
+}
+.clr-03 p{
+    color: #43cb83;
+}
