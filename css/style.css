@@ -80,10 +80,9 @@ h1, h2, h3, h4, h5, h6{
     border: none;
     border-radius: 30px;
 }
-.text-wrapper .btn:hover{
-    border: 1px solid #ffc178;
+.text-wrapper button:hover{
     background: #fff;
-    color: #4a4a4a;
+    color: #ffc178;
 }
 
 /* ----- Feature section start ----- */
